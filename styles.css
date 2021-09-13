@@ -13,3 +13,25 @@ img {
 body {
   background-color: #212529;
 }
+
+
+#map{
+  /* box-shadow: 1px 5px 20px red; */
+  box-shadow: 9px 8px 38px -21px rgba(255,0,0,0.71);
+-webkit-box-shadow: 9px 8px 38px -21px rgba(255,0,0,0.71);
+-moz-box-shadow: 9px 8px 38px -21px rgba(255,0,0,0.71);
+}
+
+.map-container-3{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+  }
+  .map-container-3 iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+  }
